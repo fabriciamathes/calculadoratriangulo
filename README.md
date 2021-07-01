@@ -64,7 +64,7 @@
 
   ### Via Eclipse
   * Acessar a class RunnerTest.java clicar com o botão direito > Run AS > JUnit Test
-	  * Para vizualisar o relatório de execução Cucumber [feature overview page](./img/index.html)
+	  * Para vizualisar o relatório de execução Cucumber [feature overview page](./img/Relatório_Execução.jpg)
 	  
   ### Via terminal
   * No diretório do projeto, abra o terminal execute o comando:
