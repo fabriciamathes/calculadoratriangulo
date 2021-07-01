@@ -60,11 +60,11 @@
   - Eclipse Plugins Cucumber;
   - Ter a versão do driver compatível com o browser;
   
-# Running test suit
+# Execução da suit de testes
 
   ### Via Eclipse
   * Acessar a class RunnerTest.java clicar com o botão direito > Run AS > JUnit Test
-	  * Para vizualisar o relatório de execução Cucumber [feature overview page](./img/Relatório_Execução.jpg)
+	  * Exemplo relatório de execução Cucumber [feature overview page](./img/Relatório_Execução.jpg)
 	  
   ### Via terminal
   * No diretório do projeto, abra o terminal execute o comando:
@@ -72,20 +72,17 @@
     ```bash
     mvn clean verify    
 	```
-    * Gera o relatório "target/cucumber-reports" e "cucumber-report-html"
-	  * na pasta do projeto target/cucumber-report-html/cucumber-html-reports/feature-overview.html
-	  * Para vizualisar o relatório de execução Cucumber [feature overview page](./img/feature-overview.JPG)
 
     ```bash
     mvn verify -DskipTest
     ```
-      * Gera o relatório "cucumber-report-html" baseado no "target/cucumber.json"   
-      
+   
     ```bash
     $ mvn test
     ```
-    * Gera o relatório "target/cucumber-reports"
 
+  ### Relatório da Execução
+  * OS relatórios de execução serão gerados na pasta "\target" do projeto.
 
 ## Features!
 
