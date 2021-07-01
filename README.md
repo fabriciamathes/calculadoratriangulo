@@ -1,16 +1,14 @@
-# calculadoratriangulo
-Calculadora de triângulos
-## Teste Matera - Descrever como executar o projeto
+# Calculadora de triângulos
   
-  ## Tech
+## Tech
   - Selenium
   - Cucumber
   - Java
   
-  ## Instalação
+## Instalação
   Você precisa ter instalado e/ou configurado na máquina:
   
-  ### Java JDK
+### Java JDK
   Recomendo a instalação do JDK 8. Você pode fazer o download, de acordo com o seu sistema operacional, em [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
   Também será necessário:
@@ -26,7 +24,7 @@ Calculadora de triângulos
   | MAVEN_HOME|Informar onde o diretório MAVEN está instalado|
   | Path| %MAVEN_HOME%|
   
-  ### Efetuar o download dos browser drivers
+### Efetuar o download dos browser drivers
   * Para iniciar, localmente, cada browser é necessário inicar o seu driver.
      * Efetue o download da versão mais atual de cada driver. 
         * Sempre utilizar a versão do driver mais próxima do seu navegador
@@ -36,10 +34,10 @@ Calculadora de triângulos
   
   |Importante: |
   | ------ |
-  |Na pasta \driver do projeto está o "chromedriver" na versão ChromeDriver 88.0.4324.96 |
+  |Na pasta \driver do projeto está o "chromedriver" na versão ChromeDriver 91.0.4472.101 |
    
   
-  ## Plugins  
+## Plugins  
   ### Plugin Eclipse Marketplace:
   
   | Plugin | README |
@@ -47,22 +45,27 @@ Calculadora de triângulos
   | Cucumber | No eclipse na aba Help > opção Marketplace: pesquisar por cucumber e instalar|
   
   
-  # Setting up selenium-cucumber-java
+# Baixar projeto
   - Clone respective repository or download zip.
   ```bash
-  $ git clone https://github.com/fabriciamathes/teste-inmetrics.git
+  $ git clone https://github.com/fabriciamathes/calculadoratriangulo.git
   ```
   - Importe o projeto utilizando o "Existing Mave Projects";
   - Click com o botão direito no projeto vá em Configure/Convert to Cucumber Projet e click.
   
-  # Pre-requisitos
+# Pre-requisitos
   - Java 8;
   - Maven;
   - Configurar as variáveis de ambiente;
   - Eclipse Plugins Cucumber;
   - Ter a versão do driver compatível com o browser;
   
-  # Running test suit
+# Running test suit
+
+  ### Via Eclipse
+  * Acessar a class RunnerTest.java clicar com o botão direito > Run AS > JUnit Test
+	  * Para vizualisar o relatório de execução Cucumber [feature overview page](./img/index.html)
+	  
   ### Via terminal
   * No diretório do projeto, abra o terminal execute o comando:
   
@@ -84,18 +87,15 @@ Calculadora de triângulos
     * Gera o relatório "target/cucumber-reports"
 
 
-  ## Features!
+## Features!
 
-  - RegisterUser.feature (Cadastrar usuário)
-  - Login.feature
-  - RegisteEmployee.feature (Cadastrar Funcionário)
-  - Employee.feature(Edit, excluir)
+  - CalculadoraTriangulo.feature
   
   Arquitetura Projeto
 --------------
-	teste-inmetrics(Project-Name)
+	teste-matera(Project-Name)
 		|
-		|_src/main/java
+		|_src/test/java
 		|	|_common
 		|	|	|_Driver.java
 		|	|	|_Element.java
@@ -125,8 +125,5 @@ Calculadora de triângulos
 * **_pages** - mapeamento de elementos e interação com a tela
 * **_runner** - execução da suite de testes
 * **_steps** - implementação das features e execução de métodos de ação do sistema
-* **_src/test/resources/features - implementação dos cenários de testes em Ghekin
-* **_driver - pasta do driver "chromedriver"
-
-
-
+* **_src/test/resources/features** - implementação dos cenários de testes em Ghekin
+* **_driver** - pasta do driver "chromedriver"
