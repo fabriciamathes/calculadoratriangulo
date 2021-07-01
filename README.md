@@ -119,7 +119,7 @@
 
 * **_common** - métodos genéricos para as páginas do sistema
 * **_enums** - valores constantes pré-definidos
-* **_pages** - mapeamento de elementos e interação com a tela
+* **_pages** - mapeamento de elementos e métodos de interação com a tela
 * **_runner** - execução da suite de testes
 * **_steps** - implementação das features e execução de métodos de ação do sistema
 * **_src/test/resources/features** - implementação dos cenários de testes em Ghekin
