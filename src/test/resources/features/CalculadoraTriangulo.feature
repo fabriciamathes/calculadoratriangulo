@@ -2,7 +2,11 @@
 #Author: fmathes
 #encoding: iso-8859-1
 
-Funcionalidade:  Calculadora de Triangulos
+Funcionalidade:  Calculadora de Triângulos
+
+Como usuário 
+Devo informo os três lados de um triângulo
+Para que eu possa calcular o tipo do triângulo e ver seu formato.
 
 @Teste_1
  Esquema do Cenario: CT01 - Informar valores inválido.

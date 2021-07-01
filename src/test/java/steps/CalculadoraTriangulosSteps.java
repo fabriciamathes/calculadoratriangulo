@@ -2,7 +2,6 @@ package steps;
 
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 
 import common.Driver;
 import io.cucumber.java.es.Dado;
