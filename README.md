@@ -24,7 +24,9 @@
   | MAVEN baixar| [Maven](https://maven.apache.org/download.cgi) descompactar no diretório no diretório de sua preferência |
   | MAVEN_HOME|Informar onde o diretório MAVEN está instalado|
   | Path| %MAVEN_HOME%|
-
+  </details> 
+  <br>
+  <details> 
   <summary> Efetuar o download dos browser drivers </summary>
   * Para iniciar, localmente, cada browser é necessário inicar o seu driver.
      * Efetue o download da versão mais atual de cada driver. 
