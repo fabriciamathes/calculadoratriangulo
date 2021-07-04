@@ -8,12 +8,13 @@
 ## Instalação
   Você precisa ter instalado e/ou configurado na máquina:
   
-### Java JDK
+#### Java JDK
   Recomendo a instalação do JDK 8. Você pode fazer o download, de acordo com o seu sistema operacional, em [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
   Também será necessário:
-  * Configurar as variável e instalar
-  
+  <details>
+  <summary> Configurar as variável e instalar </summary>
+ 
   | Variavéis de Ambiente | README |
   | ------ | ------ |
   | JDK baixar | Recomendo a instalação do JDK 8: [jdk-8u261-windows-x64.exe](https://www.oracle.com/br/java/technologies/javase/javase-jdk8-downloads.html#license-lightbox) |
@@ -23,8 +24,8 @@
   | MAVEN baixar| [Maven](https://maven.apache.org/download.cgi) descompactar no diretório no diretório de sua preferência |
   | MAVEN_HOME|Informar onde o diretório MAVEN está instalado|
   | Path| %MAVEN_HOME%|
-  
-### Efetuar o download dos browser drivers
+
+  <summary> Efetuar o download dos browser drivers </summary>
   * Para iniciar, localmente, cada browser é necessário inicar o seu driver.
      * Efetue o download da versão mais atual de cada driver. 
         * Sempre utilizar a versão do driver mais próxima do seu navegador
@@ -35,9 +36,9 @@
   |Importante: |
   | ------ |
   |Na pasta \driver do projeto está o "chromedriver" na versão ChromeDriver 91.0.4472.101 |
-   
+  </details> 
   
-## Plugins  
+### Plugins  
   ### Plugin Eclipse Marketplace:
   
   | Plugin | README |
@@ -61,7 +62,10 @@
   - Ter a versão do driver compatível com o browser;
   
 # Execução da suit de testes
-
+  
+  ### Cenários de Teste
+  * Escrita Gharkin: [feature overview page](./img/cenarios.jpg)
+	  
   ### Via Eclipse
   * Acessar a class RunnerTest.java clicar com o botão direito > Run AS > JUnit Test
 	  * Exemplo relatório de execução Cucumber [feature overview page](./img/Relatório_Execução.jpg)
