@@ -1,14 +1,14 @@
 # Calculadora de triângulos
   
-## Tech
+# Tech
   - Selenium
   - Cucumber
   - Java
   
-## Instalação
+# Instalação
   Você precisa ter instalado e/ou configurado na máquina:
   
-#### Java JDK
+### Java JDK
   Recomendo a instalação do JDK 8. Você pode fazer o download, de acordo com o seu sistema operacional, em [http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 
   Também será necessário:
@@ -66,7 +66,7 @@
 # Execução da suit de testes
   
   ### Cenários de Teste
-  * Escrita Gharkin: [feature overview page](./img/cenarios.jpg)
+  * Escrita Gharkin: [cenários page](./img/cenarios.jpg)
 	  
   ### Via Eclipse
   * Acessar a class RunnerTest.java clicar com o botão direito > Run AS > JUnit Test
