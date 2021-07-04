@@ -28,7 +28,6 @@
   <br>
   <details> 
   <summary> Efetuar o download dos browser drivers </summary>
-  
   * Para iniciar, localmente, cada browser é necessário inicar o seu driver.
      * Efetue o download da versão mais atual de cada driver. 
         * Sempre utilizar a versão do driver mais próxima do seu navegador
