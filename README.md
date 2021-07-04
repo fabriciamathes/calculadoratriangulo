@@ -66,7 +66,7 @@
 # Execução da suit de testes
   
   ### Cenários de Teste
-  * Escrita Gharkin: [cenários page](./img/cenarios.jpg)
+  * Escrita Gharkin: [cenários page](./img/cenarios.JPG)
 	  
   ### Via Eclipse
   * Acessar a class RunnerTest.java clicar com o botão direito > Run AS > JUnit Test
